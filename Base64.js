@@ -48,8 +48,7 @@ function(request, hash, domStyle, dom, declare, win) {
 		decode : function (input) {
 			var output = "";
 			var chr1, chr2, chr3;
-			var enc1, enc2, enc3, enc4;
-			var i = 0;
+//TODO: Test			var i = 0;
 
 			input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
 
@@ -142,5 +141,6 @@ function(request, hash, domStyle, dom, declare, win) {
 	});
     
 });
+
 
 
