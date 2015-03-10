@@ -2,8 +2,7 @@ define([ "dojo/request",
           "dojo/hash",
           "dojo/dom-style",
           "dojo/dom",
-          "dojo/_base/declare",
-          "dojo/window"], 
+//TODO: Test          "dojo/window"], 
 function(request, hash, domStyle, dom, declare, win) {
 	return declare("Base64",null, {
 		constructor : function(){
@@ -143,4 +142,5 @@ function(request, hash, domStyle, dom, declare, win) {
 	});
     
 });
+
 
