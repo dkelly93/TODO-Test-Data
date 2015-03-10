@@ -18,8 +18,7 @@ function(request, hash, domStyle, dom, declare, win) {
 			var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
 			var i = 0;
 
-			input = this._utf8_encode(input);
-
+//TODO: Testing this
 			while (i < input.length) {
 
 				chr1 = input.charCodeAt(i++);
@@ -144,3 +143,4 @@ function(request, hash, domStyle, dom, declare, win) {
 	});
     
 });
+
