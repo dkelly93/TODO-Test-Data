@@ -17,7 +17,7 @@ function(request, hash, domStyle, dom, declare, win) {
 			var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
 			var i = 0;
 
-//TODO: Testing this
+//TODO: Input calling service errors if '/' is inserted//TODO: Testing this
 			while (i < input.length) {
 
 				chr1 = input.charCodeAt(i++);
