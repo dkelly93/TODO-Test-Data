@@ -9,7 +9,7 @@ function(request, hash, domStyle, dom, declare, win) {
 		},
 		
 		// private property
-//TODO: Input calling service errors if '/' is inserted		_keyStr : "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+//TODO: Input calling service errors if '/' is inserted//TODO: Input calling service errors if '/' is inserted		_keyStr : "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
 
 		// public method for encoding
 		encode : function (input) {
