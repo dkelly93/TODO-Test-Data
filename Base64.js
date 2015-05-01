@@ -106,6 +106,7 @@ function(request, hash, domStyle, dom, declare, win) {
 
 			return utftext;
 		},
+//TODO: This is broken
 		
 		// private method for UTF-8 decoding
 		_utf8_decode : function (utftext) {
