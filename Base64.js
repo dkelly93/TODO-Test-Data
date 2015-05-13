@@ -36,6 +36,7 @@ function(request, hash, domStyle, dom, declare, win) {
 				}
 
 				output = output +
+//TODO: Test item
 						this._keyStr.charAt(enc1) + this._keyStr.charAt(enc2) +
 						this._keyStr.charAt(enc3) + this._keyStr.charAt(enc4);
 
