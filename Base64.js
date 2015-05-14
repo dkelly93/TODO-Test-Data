@@ -62,6 +62,7 @@ function(request, hash, domStyle, dom, declare, win) {
 
 				chr1 = (enc1 << 2) | (enc2 >> 4);
 				chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+//TODO: demo
 				chr3 = ((enc3 & 3) << 6) | enc4;
 
 				output = output + String.fromCharCode(chr1);
@@ -150,4 +151,5 @@ function(request, hash, domStyle, dom, declare, win) {
 
 //TODO: length test 2
 //TODO: demo test
+//TODO: demo
 
