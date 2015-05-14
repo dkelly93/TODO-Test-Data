@@ -69,6 +69,7 @@ function(request, hash, domStyle, dom, declare, win) {
 
 				if (enc3 != 64) {
 					output = output + String.fromCharCode(chr2);
+//TODO: demo
 				}
 				if (enc4 != 64) {
 					output = output + String.fromCharCode(chr3);
@@ -151,5 +152,6 @@ function(request, hash, domStyle, dom, declare, win) {
 
 //TODO: length test 2
 //TODO: demo test
+//TODO: demo
 //TODO: demo
 
