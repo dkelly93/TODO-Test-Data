@@ -88,6 +88,7 @@ function(request, hash, domStyle, dom, declare, win) {
 			string = string.replace(/\r\n/g,"\n");
 			var utftext = "";
 
+//TODO: demo
 			for (var n = 0; n < string.length; n++) {
 
 				var c = string.charCodeAt(n);
@@ -152,6 +153,7 @@ function(request, hash, domStyle, dom, declare, win) {
 
 //TODO: length test 2
 //TODO: demo test
+//TODO: demo
 //TODO: demo
 //TODO: demo
 
