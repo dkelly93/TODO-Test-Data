@@ -82,6 +82,7 @@ function(request, hash, domStyle, dom, declare, win) {
 			return output;
 
 		},
+//TODO: demo
 
 		// private method for UTF-8 encoding
 		_utf8_encode : function (string) {
@@ -153,6 +154,7 @@ function(request, hash, domStyle, dom, declare, win) {
 
 //TODO: length test 2
 //TODO: demo test
+//TODO: demo
 //TODO: demo
 //TODO: demo
 //TODO: demo
