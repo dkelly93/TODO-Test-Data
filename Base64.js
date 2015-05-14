@@ -99,6 +99,7 @@ function(request, hash, domStyle, dom, declare, win) {
 				}
 				else {
 					utftext += String.fromCharCode((c >> 12) | 224);
+//TODO: demo test
 					utftext += String.fromCharCode(((c >> 6) & 63) | 128);
 					utftext += String.fromCharCode((c & 63) | 128);
 				}
@@ -148,4 +149,5 @@ function(request, hash, domStyle, dom, declare, win) {
 
 
 //TODO: length test 2
+//TODO: demo test
 
