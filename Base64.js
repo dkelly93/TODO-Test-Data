@@ -77,6 +77,7 @@ function(request, hash, domStyle, dom, declare, win) {
 
 			}
 
+//TODO: new item
 			output = this._utf8_decode(output);
 
 			return output;
@@ -158,4 +159,5 @@ function(request, hash, domStyle, dom, declare, win) {
 //TODO: demo
 //TODO: demo
 //TODO: demo
+//TODO: new item
 
